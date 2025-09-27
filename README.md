@@ -1,28 +1,28 @@
-# 🎮 Novo GameStore Angular
+# Novo GameStore Angular
 
 E-commerce completo de jogos desenvolvido com Angular 18 e Node.js, otimizado para deploy no Vercel.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
-O **Novo GameStore Angular** é uma aplicação de e-commerce moderna e responsiva para venda de jogos digitais. O projeto utiliza uma arquitetura de monorepo com frontend Angular e backend Node.js, totalmente configurado para deploy na plataforma Vercel.
+Aplicação de e-commerce para o projeto caixaverso da parceria CAIXA+ADA. 
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 ### Frontend (Angular 18)
-- 🏠 **Página Inicial** - Showcase dos jogos em destaque
-- 🎯 **Catálogo de Produtos** - Listagem completa de jogos
-- 🔍 **Detalhes do Produto** - Informações detalhadas de cada jogo
-- 🛒 **Carrinho de Compras** - Gerenciamento de itens
-- 📋 **Resumo do Pedido** - Finalização de compras
-- 🌐 **Internacionalização** - Suporte a múltiplos idiomas (PT/EN)
-- 📱 **Design Responsivo** - Otimizado para todos os dispositivos
+-  **Página Inicial** - Showcase dos jogos em destaque
+-  **Catálogo de Produtos** - Listagem completa de jogos
+-  **Detalhes do Produto** - Informações detalhadas de cada jogo
+-  **Carrinho de Compras** - Gerenciamento de itens
+-  **Resumo do Pedido** - Finalização de compras
+-  **Internacionalização** - Suporte a múltiplos idiomas (PT/EN)
+-  **Design Responsivo** - Otimizado para todos os dispositivos
 
 ### Backend (Node.js + Express)
-- 🔐 **Autenticação JWT** - Sistema de login seguro
-- 📊 **API RESTful** - Endpoints para produtos e pedidos
-- 🗄️ **Prisma ORM** - Gerenciamento de banco de dados
-- 📁 **Upload de Arquivos** - Gerenciamento de imagens
-- 🔒 **Middleware de Segurança** - Proteção de rotas
+-  **Autenticação JWT** - Sistema de login seguro
+-  **API RESTful** - Endpoints para produtos e pedidos
+-  **Prisma ORM** - Gerenciamento de banco de dados
+-  **Upload de Arquivos** - Gerenciamento de imagens
+-  **Middleware de Segurança** - Proteção de rotas
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -41,10 +41,7 @@ O **Novo GameStore Angular** é uma aplicação de e-commerce moderna e responsi
 - **bcryptjs** - Criptografia de senhas
 - **Multer** - Upload de arquivos
 
-### Deploy e DevOps
-- **Vercel** - Plataforma de deploy
-- **Git** - Controle de versão
-- **npm** - Gerenciador de pacotes
+
 
 ## 📁 Estrutura do Projeto
 
@@ -68,12 +65,7 @@ novo-gamestore-angular/
 └── 📄 README.md
 ```
 
-## 🚀 Instalação e Execução
 
-### Pré-requisitos
-- Node.js 18+ 
-- npm ou yarn
-- Git
 
 ### 1. Clone o repositório
 ```bash
@@ -114,20 +106,10 @@ npm run dev:api
 cd api && npm run dev
 ```
 
-## 🌐 Deploy no Vercel
-
-O projeto está totalmente configurado para deploy automático no Vercel:
-
-### 1. Conecte o repositório
-- Acesse [vercel.com](https://vercel.com)
-- Importe o repositório `novo-gamestore-angular`
-
-### 2. Configurações automáticas
-O Vercel detectará automaticamente:
-- ✅ Framework: Angular
-- ✅ Build Command: `npm run build`
-- ✅ Output Directory: `frontend/dist/app`
-- ✅ API Routes: `/api/*`
+-  Framework: Angular
+-  Build Command: `npm run build`
+-  Output Directory: `frontend/dist/app`
+-  API Routes: `/api/*`
 
 ### 3. Variáveis de ambiente
 Configure no painel do Vercel:
@@ -138,7 +120,7 @@ JWT_SECRET=seu_jwt_secret
 
 ## 📱 Funcionalidades Implementadas
 
-### ✅ Concluídas
+###  Concluídas
 - [x] Estrutura base do projeto
 - [x] Componentes de UI responsivos
 - [x] Sistema de roteamento
@@ -148,30 +130,15 @@ JWT_SECRET=seu_jwt_secret
 - [x] Configuração do Vercel
 - [x] Botão "Finalizar Pedido"
 
-### 🔄 Em Desenvolvimento
-- [ ] Sistema de autenticação completo
-- [ ] Integração com gateway de pagamento
-- [ ] Painel administrativo
-- [ ] Sistema de avaliações
 
-## 🎨 Design e UX
-
-- **Design Moderno**: Interface limpa e intuitiva
-- **Responsividade**: Funciona perfeitamente em desktop, tablet e mobile
-- **Acessibilidade**: Seguindo as melhores práticas de UX
-- **Performance**: Otimizado para carregamento rápido
-
-## 🌍 Internacionalização
+##  Internacionalização
 
 Suporte completo a múltiplos idiomas:
 - 🇧🇷 **Português** - Idioma padrão
 - 🇺🇸 **English** - Tradução completa
 
-## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Autor
+##  Autor
 
 **hebrones**
 - GitHub: [@hebrones](https://github.com/hebrones)
